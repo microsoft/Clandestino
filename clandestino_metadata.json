@@ -1,0 +1,105 @@
+{
+    "name": "clandestino",
+    "title": "",
+    "description": "CLANDESTINO is a corpus designed for toxic-language detection, designed to address both cultural nuances of the Spanish-speaking world and the unique characteristics of the language. It is meant to also act as a seed for further data synthesis and construction of more effective toxic-language detection tools.",
+    "doi": "",
+    "version": "0.0.1",
+    "created": "4/14/2023",
+    "licenses": [
+        {
+            "title": "MIT License",
+            "name": "MIT",
+            "path": "https://opensource.org/licenses/MIT"
+        }
+    ],
+    "sources": [],
+    "resources": [
+        {
+            "name": "clandestino.json",
+            "description": "Line-separated file of sentences annotated with the following fields:\n- Toxicity score (averaged)\n- Locale\n- Target  Groups\n- Is AI Generated\n - Toxicity type\n- Index",
+            "path": "data/",
+            "doi": "",
+            "format": "json",
+            "mediatype": "application/json",
+            "bytes": "",
+            "date": "2023-04-16",
+            "encoding": "",
+            "version": "0.0.1",
+            "language": "",
+            "schema": [
+                {
+                    "name": "Toxicity Score",
+                    "type": "Real number",
+                    "description": "Numbers between 1 - 5 (averaged and per locale)"
+                },
+                {
+                    "name": "Locale",
+                    "type": "String",
+                    "description": "Locales where this string applies"
+                },
+                {
+                    "name": "Target groups",
+                    "type": "String",
+                    "description": "Referents for the sentence"
+                },
+                {
+                    "name": "Is AI Generated",
+                    "type": "Boolean",
+                    "description": "Whether the sentence was AI-generated"
+                },
+                {
+                    "name": "Toxicity type",
+                    "type": "String",
+                    "description": "Category of toxic language"
+                },
+                {
+                    "name": "Index",
+                    "type": "Integer",
+                    "description": "Index for the sentence"
+                },
+                {
+                    "name": "Sentence",
+                    "type": "String",
+                    "description": "A sentence"
+                }
+            ],
+            "dialect": {}
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Adrian de Wynter",
+            "path": "",
+            "email": "adewynter@microsoft.com",
+            "role": "author"
+        }
+    ],
+    "privacy": [
+        {
+            "notice": {
+                "path": "./README.md",
+                "description": "Offensive content warning"
+            },
+            "useTerms": {
+                "path": "./README.md",
+                "description": "This data may not be used in any system that could cause harm, or used in surveillance applications."
+            },
+            "sensitivity": {
+                "description": "This data is extremely toxic and only intended for toxic language detection",
+                "types": []
+            },
+            "confidentiality": {
+                "path": "",
+                "description": ""
+            },
+            "assessments": []
+        }
+    ],
+    "security": [],
+    "procedures": {
+        "collection": [],
+        "processing": [],
+        "update": []
+    },
+    "use": []
+}
