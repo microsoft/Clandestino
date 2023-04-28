@@ -14,9 +14,17 @@ CLANDESTINO is a corpus designed for toxic-language detection, bearing in mind t
 
 **WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity detection methods. Included examples of toxicity do not represent how the authors or sponsors feel about any identity groups.**
 
+
+## Updates
+_Stay tuned for updates since this corpus is actively under development_
+
+- May 1st: CLANDESTINO's first version released! 
+
+
 ## Citation
 
 If you use CLANDESTINO in your work, please consider citing our paper:
+
 
 ```
 TBD
