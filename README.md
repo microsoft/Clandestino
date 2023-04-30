@@ -1,5 +1,7 @@
 # CLANDESTINO
 
+_Para español, [click aquí](./LEEME.md)_
+
 This is the repository for CLANDESTINO, the Spanish toxic language dataset. Spanish is spoken by almost half a billion people in over 40 countries as a first language. This makes toxic language detection challenging: blanket detection could cause erasure (a term offensive in one locale might not be offensive in another), but underblocking can cause harm and perpetuate stereotypes.
 
 Additionally, the phonetic nature of Spanish means that there are multiple ways to spell the same word--and statistical, text-only approaches fail to account for this. 
