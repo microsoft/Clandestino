@@ -1,31 +1,30 @@
 # CLANDESTINO
 
-Este es el repositorio de CLANDESTINO, el conjunto de datos de lenguaje tóxico en español. El español la lengua materna de casi 500 mil millones de personas en más de 40 países. Esto hace la detección de lenguaje tóxico en español muy difícil: una estrategia 
+_For English, click [here](./README.md)._
 
-This is the repository for CLANDESTINO, the Spanish toxic language dataset. Spanish is spoken by almost half a billion people in over 40 countries as a first language. This makes toxic language detection challenging: blanket detection could cause erasure (a term offensive in one locale might not be offensive in another), but underblocking can cause harm and perpetuate stereotypes.
+Este es el repositorio de CLANDESTINO, el conjunto de datos de lenguaje tóxico en español. El español la lengua materna de casi 500 mil millones de personas en más de 40 países. Esto hace la detección de lenguaje tóxico en español muy difícil: una cobertura general podría causar olvido o borradura (_erasure_), dado que palabras ofensivas en un país podrán no ser ofensivas en otro. Por otro lado, una cobertura insuficiente va a causar daño, exclusión, y perpetuar estereotipos acerca de algo o alguien.
 
-Additionally, the phonetic nature of Spanish means that there are multiple ways to spell the same word--and statistical, text-only approaches fail to account for this. 
-Cultural nuances of the Hispanosphere also play an important role: the legacy of colonialism and imperialism means that offensiveness and toxicity are measured with a different bar than that of US-based speech. Furthermore, it would be inaccurate to consider all Spanish-speaking countries as a cultural monolith.
+Aparte, la naturaleza fonética del español implica que hay muchas maneras de escribir la misma palabra. Muchas soluciones de hoy solo usan estadísticas o texto, y no toman esto en cuenta. Añade a eso matices culturales de la Hispanoesfera (como el legado que dejaron el colonialismo y el imperialismo) y es obvio que el nivel de toxicidad y ofensa que un texto tenga serán medidos de manera diferente a la de un texto en inglés de EE.UU. En otras palabras, sería muy inexacto asumir que todos los países hispanoablantes son un monolito cultural.
 
-CLANDESTINO is a corpus designed for toxic-language detection, bearing in mind the points above. It is meant to also act as a seed for further data synthesization, and has the following features:
-- Native speaker annotation, spanning 48 countries. 
-- Extensive (yet non-exhaustive, see [below](#responsible-ai-considerations)) coverage across multiple toxic categories (e.g., hate speech, microaggressions, positive stereotyping, self-harm, disinformation) and groups both traditionally considered vulnerable as well as those specific to the Hispanosphere.
-- Coverage of both informal speech (e.g., text-based spelling) and formal speech.
-- Inclusion of locale-specific language, along with locale tags.
-- A combination of AI and human-generated toxic content, and labelled as such.
+CLANDESTINO es un conjunto de datos diseñado para la detección de lenguage tóxico, incluyendo los puntos anteriores. Está diseñado para actuar como una semilla para hacer más síntesis de datos. Tiene las siguientes características:
+- Anotación por hablantes nativos, de siete países.
+- Cobertura extensiva (pero no exaustiva, ve [abajo](#consideraciones-respecto-a-responsable-ia)) de múltiple categorías tóxicas (p.ej. discurso de odio, microagresiones, estereotipos positivos, autolesiones, disinformación) y grupos tradicionalmente considerados vulnerables en general y en la Hispanoesfera.
+- Cobertura de discurso informal (p.ej., ortografía comúnmente encontrada en el internet) y formal. 
+- Inclusión de lenguaje específico a cada región, incluyendo anotaciones para éstas. 
+- Una combinación de texto tóxico generado por IA y por seres humanos, y etiquetado como tal.
 
-**WARNING: This repository contains and discusses content that is offensive or upsetting. All materials are intended to support research that improves toxicity detection methods. Included examples of toxicity do not represent how the authors or sponsors feel about any identity groups.**
-
-
-## Updates
-_Stay tuned for updates since this corpus is actively under development_
-
-- May 1st: CLANDESTINO's first version released! 
+**NOTA: Este repositorio contiene y discute contenido que puede ser ofensivo o causar angustia. Todos los materiales de este repositorio son solamente para ayudar en la investigación de mejores métodos para detectar la toxicidad. Los ejemplos incluidos en este repositorio no representan los sentimientos de los autores o sus auspiciadores hacia cualquier grupo.**
 
 
-## Citation
+## Actualizaciones
+_Manténte al corriente! Este corpus está siendo actualizado constantemente._
 
-If you use CLANDESTINO in your work, please consider citing our paper:
+- 1° de mayo, 2023: Lanzamos la primera versión de CLANDESTINO! 
+
+
+## Referencias
+
+Si usas CLANDESTINO en tu trabajo, por favor considera citar nuestro papel:
 
 
 ```
@@ -33,31 +32,19 @@ TBD
 ```
 
 
-## Responsible AI Considerations
+## Consideraciones respecto a responsable IA
 
-Please also note that there is still a lot that this dataset is not capturing about what constitutes problematic language in Spanish. 
-Our annotations might not capture the full complexity of these issues, given problematic language is context-and-culture-dependent, dynamic, and can manifest in different forms and different severities. Problematic language is also fundamentally a human-centric problem and should be studied in conjunction with human experience. There is need for multi-disciplinary work to better understand these aspects. Also note that this dataset only captures toxicity in a non-exhaustive manner, and due to its large scale can naturally be noisy. Our goal in this project is to provide the community with means to improve toxicity detection in Spanish across multiple locales, and there exists limitations to this dataset and models trained on it. 
-These limitations can and should be the subject of future research.
+> Nota que todavía hay mucho que este conjunto de datos no captura con relación a lo que es el lenguaje problemático en español. 
+> Nuestras anotaciones probablemente no capturan la complejidad de estos problemas. El lenguaje problemático depende del contexto y la cultura, y también es dinámico y puede manifestarse en muchas formas y severidades diferentes. El lenguaje problemático es, fundamentalmente, un problema centrado en los seres humanos, y debería ser estudiado en conjunción con la experiencia humana. Hay una gran necesidad de hacer investigación multidisciplinaria para entender mejor estos aspectos.
+
+> También nota que este corpus solo captura toxicidad en una manera que no es exaustiva. Debido a su gran tamaño, también va a tener errores (_noise_). Nuestra meta en este proyecto es proveer a la comunidad los medios para mejorar la detección de toxcicidad en español a través de muchas regiones, y por ende <ins>este corpus y modelos entrenados con él van a tener limitaciones</ins>. 
+> Estas limitaciones pueden y deberán ser el tema de investigación subsecuente. 
 
 
-## Contributing
+## Contribuciones
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Ve [aquí](./README.md) (en inglés).
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Marcas
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+Ve [aquí](./README.md) (en inglés).
