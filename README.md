@@ -21,7 +21,7 @@ CLANDESTINO is a corpus designed for toxic-language detection, bearing in mind t
 ## Updates
 _Stay tuned for updates since this corpus is actively under development_
 
-- May 1st: CLANDESTINO's first version released! 
+- May 15th: CLANDESTINO's first version released! 
 
 
 ## Citation
@@ -39,10 +39,11 @@ TBD
 >Note that there is still a lot that this dataset is not capturing about what constitutes problematic language in Spanish. 
 >Our annotations might not capture the full complexity of these issues, given problematic language is context-and-culture-dependent, dynamic, and can manifest in different forms and different severities. Problematic language is also fundamentally a human-centric problem and should be studied in conjunction with human experience. There is need for multi-disciplinary work to better understand these aspects.
 
->Also note that this dataset only captures toxicity in a non-exhaustive manner, and due to its large scale can naturally be noisy. Our goal in this project is to provide the community with means to improve toxicity detection in Spanish across multiple locales, and <ins>there exists limitations to this dataset and models trained on it</ins>. 
->These limitations can and should be the subject of future research.
+>Also note that this dataset only captures toxicity in a non-exhaustive manner, and due to its large scale can naturally be noisy. Our goal in this project is to provide the community with means to improve toxicity detection in Spanish across multiple locales, and <ins>there exist limitations to this dataset and models trained on it</ins>. 
+>Remember as well that all annotations introduce an intrinsic bias into the dataset. 
+>All of these limitations can and should be the subject of future research.
 
 
 ## Contributing & Trademarks
 
-See [here](./CONTRIBUTING.md)
+See [here](./CONTRIBUTING.md).
