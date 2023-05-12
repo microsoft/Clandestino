@@ -37,7 +37,8 @@ TBD
 > Nota que todavía hay mucho que este conjunto de datos no captura con relación a lo que es el lenguaje problemático en español. 
 > Nuestras anotaciones probablemente no capturan la complejidad de estos problemas. El lenguaje problemático depende del contexto y la cultura, y también es dinámico y puede manifestarse en muchas formas y severidades diferentes. El lenguaje problemático es, fundamentalmente, un problema centrado en los seres humanos, y debería ser estudiado en conjunción con la experiencia humana. Hay una gran necesidad de hacer investigación multidisciplinaria para entender mejor estos aspectos.
 
-> También nota que este corpus solo captura toxicidad en una manera que no es exaustiva. Debido a su gran tamaño, también va a tener errores (_noise_). Nuestra meta en este proyecto es proveer a la comunidad los medios para mejorar la detección de toxcicidad en español a través de muchas regiones, y por ende <ins>este corpus y modelos entrenados con él van a tener limitaciones</ins>. 
+> También nota que este corpus solo captura toxicidad en una manera que no es exaustiva. Debido a su gran tamaño, también va a tener errores (_noise_). Nuestra meta en este proyecto es proveer a la comunidad los medios para mejorar la detección de toxicidad en español a través de muchas regiones, y por ende <ins>este corpus y modelos entrenados con él van a tener limitaciones</ins>. 
+> Recuerda que todas las anotaciones van a introducir una predisposición intrínsica en el conjunto de datos. 
 > Estas limitaciones pueden y deberán ser el tema de investigación subsecuente. 
 
 
